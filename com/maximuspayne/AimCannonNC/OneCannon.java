@@ -979,7 +979,7 @@ public class OneCannon{
 		    	cost=100;
 		    
 		    //p.sendMessage("test1.");
-			if( p.getWorld().getName().equalsIgnoreCase("WarWorld1") || p.getWorld().getName().equalsIgnoreCase("WarWorld3") )
+			if( p.getWorld().getName().equalsIgnoreCase("alatyr (main)") || p.getWorld().getName().equalsIgnoreCase(build) )
 			{
 				//p.sendMessage("test2.");
 				if( ess.getUser(p).canAfford(new BigDecimal(cost)) )
@@ -4930,7 +4930,7 @@ public class OneCannon{
     {
     	if( wgp != null )
     	{
-    		if( !loc.getWorld().getName().equalsIgnoreCase("warworld2") && !loc.getWorld().getName().equalsIgnoreCase("warworld1") && !loc.getWorld().getName().equalsIgnoreCase("warworld3") )
+    		if( !loc.getWorld().getName().equalsIgnoreCase("admintest") && !loc.getWorld().getName().equalsIgnoreCase("alatyr (main)") && !loc.getWorld().getName().equalsIgnoreCase(build) )
     		{
     			return true;
     		}

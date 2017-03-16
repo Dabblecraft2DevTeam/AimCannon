@@ -7,5 +7,10 @@
 	<classpathentry kind="lib" path="C:/Users/joel/Desktop/eclipse/workspace/spigot-1.8.8.jar"/>
 	<classpathentry kind="lib" path="C:/Users/joel/Desktop/eclipse/workspace/worldedit-bukkit-6.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/joel/Desktop/eclipse/workspace/worldguard-6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/keough99/workspace/NavyCraft/jars/craftbukkit-1.10.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/keough99/workspace/NavyCraft/jars/Essentials-2.x-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/keough99/workspace/NavyCraft/jars/worldedit-bukkit-6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/keough99/workspace/NavyCraft/jars/worldguard-6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/keough99/Downloads/NavyCraft (1).jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
