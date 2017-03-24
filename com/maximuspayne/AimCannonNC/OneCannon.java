@@ -4928,6 +4928,7 @@ public class OneCannon{
     
     public boolean checkProtectedRegion(Player player, Location loc)
     {
+    	return false;
     	if( wgp != null )
     	{
     		//if( !loc.getWorld().getName().equalsIgnoreCase("admintest") && !loc.getWorld().getName().equalsIgnoreCase("alatyr (main)") && !loc.getWorld().getName().equalsIgnoreCase(build) )
