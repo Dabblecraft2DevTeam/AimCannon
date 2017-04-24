@@ -22,6 +22,7 @@ import org.bukkit.plugin.Plugin;
 import org.bukkit.util.Vector;
 
 import com.earth2me.essentials.Essentials;
+import com.sk89q.worldguard.bukkit.WGBukkit;
 import com.sk89q.worldguard.bukkit.WorldGuardPlugin;
 import com.sk89q.worldguard.protection.ApplicableRegionSet;
 import com.sk89q.worldguard.protection.managers.RegionManager;
@@ -80,7 +81,7 @@ public class OneCannon{
 	rightLoading = false;
 	loc = inloc;
 	plugin = inplugin;
-	wgp = (WorldGuardPlugin) plugin.getServer().getPluginManager().getPlugin("WorldGuard");
+	wgp = WGBukkit.getPlugin();
     }
 
     public void setLocation(Location inLoc)
