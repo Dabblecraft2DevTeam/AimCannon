@@ -979,7 +979,7 @@ public class OneCannon{
 		    	cost=100;
 		    
 		    //p.sendMessage("test1.");
-			if( p.getWorld().getName().equalsIgnoreCase("alatyr (main)") || p.getWorld().getName().equalsIgnoreCase(build) )
+			if( p.getWorld().getName().equalsIgnoreCase("alatyr (main)") || p.getWorld().getName().equalsIgnoreCase("build") )
 			{
 				//p.sendMessage("test2.");
 				if( ess.getUser(p).canAfford(new BigDecimal(cost)) )
